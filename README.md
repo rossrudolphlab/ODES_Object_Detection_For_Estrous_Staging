@@ -132,3 +132,16 @@ To remove the ODES environment and its dependencies:
 4. **Delete ODES Folder**
 
    Optionally, delete the **ODES** folder from your desktop to remove the script files.
+
+---
+
+## Image Preparation Recommendations
+
+To achieve the best results with ODES, please ensure your images are prepared according to the following guidelines:
+
+**Staining**: Ensure images are properly stained. Unstained images reduce the model’s ability to accurately distinguish cell boundaries and characteristics, as it relies on these features to identify and classify cells effectively.
+
+**Cell Clumping**: Avoid images where cells are clumped together. ODES may struggle to classify cells accurately when they overlap or lack clear boundaries, which can complicate the detection of individual cell features.
+
+**Cell Count**: Be aware that very low cell counts (<35) in images can make stage classification difficult.
+By following these recommendations you can improve the accuracy and reliability of the results produced by ODES.
